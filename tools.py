@@ -26,7 +26,7 @@ class tools:
     def generate_hex_str(self, amount: int):
         return ''.join(random.choices('0123456789abcdef', k=amount))
 
-    #check card with Luhn Argo
+    #check card with Luhn Algo
     def check_card(self, card_number: int):
         sum_digits = 0
         is_even = False
